@@ -4,7 +4,7 @@ if [ $# -eq 0 ]
     exit
 fi
 
-echo "Running pipeline..."
+echo "Running pipeline script..."
 
 if npm install; then
     echo "npm install completed successfully"
